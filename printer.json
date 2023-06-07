@@ -1,0 +1,126 @@
+{
+  "pageW": 72,
+  "pageH": 72,
+  "direction": 0,
+  "OffsetX": 0,
+  "OffsetY": 0,
+  "elements": [
+    {
+      "elementType": 0,
+      "fontName": "",
+      "fontSize": 14,
+      "rotation": 0,
+      "iLeft": 0,
+      "iTop": 0,
+      "align": 1,
+      "pageWidth": 10,
+      "text": "票券名称"
+    },
+    {
+      "elementType": 1,
+      "iLeft": 0,
+      "iTop": 6,
+      "expectedHeight": 26,
+      "qrCode": "64697859817112<MjAwMDAwMDEzNjIwMjMtMDYtMDQyMDI0LTA2LTA0>"
+    },
+    {
+      "elementType": 0,
+      "fontName": "",
+      "fontSize": 14,
+      "rotation": 0,
+      "iLeft": 27,
+      "iTop": 7,
+      "align": 1,
+      "pageWidth": 10,
+      "text": "票券编号"
+    },
+    {
+      "elementType": 0,
+      "fontName": "",
+      "fontSize": 14,
+      "rotation": 0,
+      "iLeft": 27,
+      "iTop": 15,
+      "align": 1,
+      "pageWidth": 8,
+      "text": "订单号"
+    },
+    {
+      "elementType": 0,
+      "fontName": "",
+      "fontSize": 14,
+      "rotation": 0,
+      "iLeft": 27,
+      "iTop": 24,
+      "align": 1,
+      "pageWidth": 8,
+      "text": "有效期"
+    },
+    {
+      "elementType": 0,
+      "fontName": "",
+      "fontSize": 14,
+      "rotation": 0,
+      "iLeft": 2,
+      "iTop": 33,
+      "align": 1,
+      "pageWidth": 27,
+      "text": "hell word "
+    },
+    {
+      "elementType": 0,
+      "fontName": "",
+      "fontSize": 14,
+      "rotation": 0,
+      "iLeft": 11,
+      "iTop": 0,
+      "align": 1,
+      "pageWidth": 63,
+      "text": "0元门票"
+    },
+    {
+      "elementType": 0,
+      "fontName": "",
+      "fontSize": 14,
+      "rotation": 0,
+      "iLeft": 38,
+      "iTop": 7,
+      "align": 1,
+      "pageWidth": 35,
+      "text": "T2306040018543500001"
+    },
+    {
+      "elementType": 0,
+      "fontName": "",
+      "fontSize": 14,
+      "rotation": 0,
+      "iLeft": 35,
+      "iTop": 15,
+      "align": 1,
+      "pageWidth": 37,
+      "text": "MO202306040000088106"
+    },
+    {
+      "elementType": 0,
+      "fontName": "",
+      "fontSize": 14,
+      "rotation": 0,
+      "iLeft": 35,
+      "iTop": 24,
+      "align": 1,
+      "pageWidth": 37,
+      "text": "2024-06-04"
+    },
+    {
+      "elementType": 0,
+      "fontName": "",
+      "fontSize": 14,
+      "rotation": 0,
+      "iLeft": 29,
+      "iTop": 33,
+      "align": 1,
+      "pageWidth": 41,
+      "text": ""
+    }
+  ]
+}

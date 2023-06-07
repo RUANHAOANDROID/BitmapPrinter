@@ -1,0 +1,13 @@
+  setPageSize: pageW=72
+  setPageSize: pageH=72
+  setPageSize: direction=0
+  setPageSize: OffsetX=0
+  setPageSize: OffsetY=0
+  addText: text=票券名称 fontSize=14 rotation=0 iLeft=0 iTop=0 align=1 pageWidth=72
+  addQrCode: iLeft=1 iTop=6 expectedHeight=25 qrCode=34027290657570<MjAwMDAwMTkyNDIwMjMtMDYtMDMyMDIzLTA2LTAz>
+  addText: text=票券编号 fontSize=14 rotation=0 iLeft=29 iTop=8 align=1 pageWidth=30
+  addText: text=证件号码 fontSize=14 rotation=0 iLeft=29 iTop=18 align=1 pageWidth=30
+  addText: text=从前有座山山里有做吧 fontSize=14 rotation=0 iLeft=3 iTop=35 align=1 pageWidth=66
+  addText: text=hao88打印测试票 fontSize=14 rotation=0 iLeft=0 iTop=6 align=0 pageWidth=71
+  addText: text=T2306030010502600002 fontSize=14 rotation=0 iLeft=29 iTop=14 align=0 pageWidth=71
+  addText: text= fontSize=14 rotation=0 iLeft=29 iTop=24 align=0 pageWidth=71
