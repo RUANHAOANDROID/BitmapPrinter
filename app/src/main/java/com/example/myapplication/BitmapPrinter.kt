@@ -70,7 +70,7 @@ class BitmapPrinter {
         align: Int,
         pageWidth: Int
     ) {
-        mPaint.textSize = fontSize.toFloat() // 设置字体大小
+        textPaint.textSize = fontSize.toFloat() // 设置字体大小
         var alignment = when (align) {
             0 -> {
                 Layout.Alignment.ALIGN_NORMAL
