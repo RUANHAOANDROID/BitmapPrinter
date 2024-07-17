@@ -5,7 +5,7 @@ import android.util.Log
 
 class PrinterMock(private val printer: HaoPrinter) {
     fun printer() {
-        val printerJSON = PrinterJsonProvider.getPrinterContent()
+        val printerJSON = PrinterContentProvider.getPrinterContent()
 
         val pageBundle = Bundle()
         pageBundle.putInt("pageW", printerJSON.pageW.toInt())
@@ -17,10 +17,10 @@ class PrinterMock(private val printer: HaoPrinter) {
         for (e in printerJSON.elements) {
             if (e.isText()) {
                 printerText(printer, e.text!!, e)
-                Log.d("PrinterUchiTest",e.toString())
+                Log.d("PrinterMock",e.toString())
             }
             if (e.isQrCode()) {
-                Log.d("PrinterUchiTest",e.toString())
+                Log.d("PrinterMock",e.toString())
                 val qrBundle = Bundle()
                 qrBundle.putInt("iLeft", e.iLeft.toInt())
                 qrBundle.putInt("iTop", e.iTop.toInt())

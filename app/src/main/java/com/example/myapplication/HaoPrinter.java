@@ -141,7 +141,7 @@ public class HaoPrinter {
         int expectedHeight = format.getInt("expectedHeight");//16
         //宽 1~16
         Log.d(TAG, "addQrCode: iLeft=" + iLeft + " iTop=" + iTop + " expectedHeight=" + expectedHeight);
-        bitmapPrinter.addQrCode(iLeft * 8, iTop * 8, expectedHeight, qrCode);
+        bitmapPrinter.addQrCode(iLeft * 8, iTop * 8, expectedHeight*8, qrCode);
         return 0;
     }
 

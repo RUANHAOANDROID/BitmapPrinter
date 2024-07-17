@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val bitmapPrinter = BitmapPrinter()
-        val haoPrinter = HaoPrinter(this, bitmapPrinter);
+        val haoPrinter = HaoPrinter(this, bitmapPrinter)
         val test = PrinterMock(haoPrinter);
         test.printer()
         val imageView = findViewById<ImageView>(R.id.imgPrinter)
