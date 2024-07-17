@@ -4,18 +4,9 @@ package com.example.myapplication;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.hardware.usb.UsbDevice;
-import android.hardware.usb.UsbManager;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
-
-
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
 /**
  * EP-381C
  * 8 dots/mm(203dpi)

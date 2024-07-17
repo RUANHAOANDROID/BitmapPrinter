@@ -9,7 +9,7 @@ import com.google.zxing.qrcode.QRCodeWriter
 import java.util.*
 
 /**
- * TODO
+ * 二维码生成
  * @date 2022/6/13
  * @author 锅得铁
  * @since v1.0

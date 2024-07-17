@@ -1,7 +1,5 @@
 package com.example.myapplication
 
-import android.graphics.*
-import android.graphics.Paint.Style
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
@@ -13,10 +11,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val bitmapPrinter = BitmapPrinter()
         val haoPrinter = HaoPrinter(this, bitmapPrinter);
-        val test = PrinterUchiTest(haoPrinter);
+        val test = PrinterMock(haoPrinter);
         test.printer()
         val imageView = findViewById<ImageView>(R.id.imgPrinter)
         imageView.setImageBitmap(bitmapPrinter.drawEnd())
     }
-
 }
